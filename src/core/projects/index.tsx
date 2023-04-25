@@ -1,5 +1,6 @@
 import Project from './Project'
 import { useFilter } from './hooks'
+import { Helmet } from 'react-helmet'
 
 export default function Projects() {
   const { handleFilter, projects, filters } = useFilter()
@@ -8,6 +9,14 @@ export default function Projects() {
       id="projects"
       className="bg-white py-32 min-h-screen relative z-10 grid place-content-center"
     >
+      <Helmet>
+        <title>Home - MasterBOHMID</title>
+        <meta
+          name="description"
+          content="Sorry, the page you are looking for is not available."
+        />
+        <meta http-equiv="status" content="404" />
+      </Helmet>
       <div className="">
         <h1 className="text-center">
           {'PROJECTS & XPs.'.split('').map((l, idx) => (
