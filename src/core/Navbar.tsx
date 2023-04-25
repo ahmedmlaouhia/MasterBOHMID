@@ -38,11 +38,14 @@ export default function Navbar() {
           <HashLink to="/#projects" className="desktop-only nav-url" smooth>
             Projects
           </HashLink>
+          <HashLink to="/#blogs" className="desktop-only nav-url" smooth>
+            Blogs
+          </HashLink>
           <HashLink to="/#contact" className="desktop-only nav-url" smooth>
             Contact
           </HashLink>
           <a
-            href="/cv.pdf"
+            href="/Ahmed Mlaouhia CV.pdf"
             target="_blank"
             rel="noreferrer noopener"
             className="desktop-only hero-social text-sm !ml-8"
@@ -93,6 +96,14 @@ export default function Navbar() {
             onClick={ctrl.close}
           >
             Projects
+          </HashLink>
+          <HashLink
+            to="/#blogs"
+            className="nav-url"
+            smooth
+            onClick={ctrl.close}
+          >
+            Blogs
           </HashLink>
           <HashLink
             to="/#contact"

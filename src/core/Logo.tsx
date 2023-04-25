@@ -7,10 +7,10 @@ export default function Logo() {
       to="/#top"
       smooth
     >
-      {'HMLNDR.'.split('').map((l, idx) => (
+      {'MASTER_BOHMID'.split('').map((l, idx) => (
         <span
           key={l}
-          className={`relative mx-2 duration-200 ease-in-out text-xl font-bold ${
+          className={`relative mx-1 duration-200 ease-in-out text-xl font-bold ${
             idx % 2 ? 'hover:text-[#69C9D0]' : 'hover:text-[#EE1D52]'
           }`}
         >

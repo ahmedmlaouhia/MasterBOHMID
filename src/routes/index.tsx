@@ -1,4 +1,5 @@
 import About from '~/core/About'
+import Blogs from '~/core/blogs'
 import Contact from '~/core/Contact'
 import Extra from '~/core/Extra'
 import Hero from '~/core/hero'
@@ -10,6 +11,7 @@ export default function Index() {
       <Hero />
       <About />
       <Projects />
+      <Blogs />
       <Extra />
       <Contact />
     </div>

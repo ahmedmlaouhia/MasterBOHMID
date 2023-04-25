@@ -1,0 +1,20 @@
+[
+  {
+    "title": "NCSC 2k23 - National Cyber Security Congress",
+    "description": [
+      "This Event was organized by Securinets INSAT on 19-21 Mars 2023.",
+      "I have contributed with 2 challenges in the Web Exploitation category in the Main CTF. A Frontend Task and a Deno Jail.",
+      "I have also contributed with 5 challenges in the Hackback Series, Including Deno Reverse Engineering, RCE, LFI, Basic Blockchain Enumeration, OSINT, and Steganography.",
+      "My challenges were written in Typescript."
+    ],
+    "image": "/projects/ncsc.jpg",
+    "tags": ["CTF", "TS", "2023"],
+    "links": [
+      {
+        "label": "Visit the website",
+        "url": "https://ctf.securinets.tn/"
+      }
+    ],
+    "note": null
+  }
+]

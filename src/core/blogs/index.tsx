@@ -1,16 +1,16 @@
-import Project from './Project'
+import Blog from './Blog'
 import { useFilter } from './hooks'
 
-export default function Projects() {
-  const { handleFilter, projects, filters } = useFilter()
+export default function Blogs() {
+  const { handleFilter, blogs, filters } = useFilter()
   return (
     <div
-      id="projects"
+      id="blogs"
       className="bg-white py-32 min-h-screen relative z-10 grid place-content-center"
     >
       <div className="">
         <h1 className="text-center">
-          {'PROJECTS & XPs.'.split('').map((l, idx) => (
+          {'Blogs.'.split('').map((l, idx) => (
             <span key={idx} className="logo-char logo-char-3 text-4xl">
               {l}
             </span>
@@ -30,19 +30,9 @@ export default function Projects() {
         </div>
 
         <div className="px-4 pt-20 py-10 grid gap-10">
-          {projects.map((project, idx) => (
-            <Project key={idx} {...project} />
+          {blogs.map((blog, idx) => (
+            <Blog key={idx} {...blog} />
           ))}
-          <div className="flex justify-center">
-            <a
-              href="https://github.com/ahmedmlaouhia"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="m-4 hero-social text-xs text-black"
-            >
-              Checkout my Github for more projects
-            </a>
-          </div>
         </div>
       </div>
     </div>

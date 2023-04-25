@@ -19,7 +19,7 @@ export default function Hero() {
         <div>
           <WithHelper text="Scroll Down">
             <h1 className="text-center">
-              {'HMLNDR.'.split('').map((l, idx) => (
+              {'MASTER_BOHMID'.split('').map((l, idx) => (
                 <span
                   onMouseEnter={() => hmldnr.enter(l)}
                   onMouseLeave={hmldnr.out}
@@ -47,18 +47,18 @@ export default function Hero() {
           </div>
 
           <div className="pt-20 flex items-center justify-center space-x-6 relative z-[1]">
-            <a href="https://github.com/Nie-Mand" target="_blank">
+            <a href="https://github.com/ahmedmlaouhia" target="_blank">
               <WithHelper
-                text="Visit My GitHub @Nie-Mand"
+                text="Visit My GitHub @ahmedmlaouhia"
                 className="hero-social"
               >
-                <Github className="" />
+                <Github />
               </WithHelper>
             </a>
 
-            <a href="https://www.linkedin.com/in/nie-mand/" target="_blank">
+            <a href="https://www.linkedin.com/in/mrboh/" target="_blank">
               <WithHelper
-                text="Visit My LinkedIn 'Mohamed Sofiene'"
+                text="Visit My LinkedIn 'Ahmed Mlaouhia'"
                 className="hero-social"
               >
                 <LinkedIn />
