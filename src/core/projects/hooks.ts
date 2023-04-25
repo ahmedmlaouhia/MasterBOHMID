@@ -19,12 +19,8 @@ const FILTERS = [
     value: '2021',
   },
   {
-    label: 'CTF',
-    value: 'CTF',
-  },
-  {
-    label: 'Go',
-    value: 'Go',
+    label: 'Tailwind',
+    value: 'Tailwind',
   },
   {
     label: 'React',
@@ -33,10 +29,6 @@ const FILTERS = [
   {
     label: 'Typescript',
     value: 'TS',
-  },
-  {
-    label: 'Hackathons',
-    value: 'Hackathons',
   },
   {
     label: 'Academic',

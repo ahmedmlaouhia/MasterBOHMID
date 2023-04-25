@@ -56,65 +56,35 @@ export default function About() {
             <div>
               <div className="px-4 pt-10 max-w-xl font-medium">
                 My name is
-                <span className="colored-red"> Mohammad Sofiane Barka </span>,
-                I'm a <span className="colored-blue font-black"> Full </span>{' '}
-                Stack <span className="colored-red"> Web </span> Developer and{' '}
-                <span className="colored-red"> DevOps </span> Enthusiast.
-                Sometimes I dig a little into{' '}
-                <span className="colored-blue"> Blockchain </span> Technology
-                and
-                <span className="colored-red font-black">
-                  {' '}
-                  Cybersecurity{' '}
-                </span>{' '}
-                (Web Exploitation). I go to
+                <span className="colored-red"> Ahmed Mlaouhia </span>, I'm a{' '}
+                <span className="colored-blue font-black"> Front</span> End{' '}
+                <span className="colored-red"> Developer </span> and{' '}
+                <span className="colored-red"> DevOps </span> Engineer @
+                Start-Now. I go to
                 <a
-                  href="https://goo.gl/maps/5L4zHZB98m4HnpQG8"
+                  href="https://goo.gl/maps/r6FTEGLPMv1EPgCL6"
                   className="colored-blue"
                   target="_blank"
                 >
                   {' '}
-                  the National Institute of Applied Sciences and Technology
-                  `Tunis`{' '}
+                  Higher institution of technological study Rades{' '}
                 </a>
-                , as known as{' '}
-                <span className="colored-red font-black">INSAT</span>, where I
-                study Networking and Telecommunication{' '}
-                <span className="font-black">Engineering</span>.
-                <br />
-                <br />I have been an honorable member in the Association of
-                Computer Machinery ACM for Contributing to the
-                <WithHelper
-                  className="inline"
-                  text="Built it with Adam Lahbib, Deployed by Mohamed Rafraf, the gate into recognition"
-                >
-                  <span className="colored-blue">
-                    {' '}
-                    `Programming Battle Royale` Project{' '}
-                  </span>
-                </WithHelper>
-                .I have contributed to many workshops, some of are Solidty
-                Workshop with
-                <WithHelper
-                  className="inline"
-                  text="Building the Club from Scratch with Nour Mami and Vicyyn 💫"
-                >
-                  <span className="colored-blue font-black">
-                    {' '}
-                    Dar Blockchain, the INSAT Chapter{' '}
-                  </span>
-                </WithHelper>
-                , and
-                <WithHelper
-                  className="inline"
-                  text="I tought CI/CD, Docker, Cloud Computing alongside my friend, Mohamed Ayadi"
-                >
+                , where I study Business Intelligence. <br />
+                <br />I have bachelor degree in conputer science @ Faculty of
+                science of Bizerte with
+                <span className="colored-blue">
                   {' '}
-                  <span className="colored-red">
-                    Google Developers Student Club (GDSC INSAT) and Securinets{' '}
-                  </span>
-                  INSAT as DevOps and Cloud Instructor
-                </WithHelper>
+                  DevOps end of study internship @ Start-Now{' '}
+                </span>
+                .I have worked with different languages and frameworks like
+                <span className="colored-blue font-black">
+                  {' '}
+                  Angular, React, Java, Python, C...{' '}
+                </span>
+                , and DevOps tools like{' '}
+                <span className="colored-red">
+                  Jenkins, Docker, Linux, Gitlab, Grafana, Prometheus...{' '}
+                </span>
               </div>
             </div>
           </div>
@@ -125,16 +95,13 @@ export default function About() {
                 Web Developer (React ❤️)
               </div>
               <div className="hero-social text-sm text-black">
-                In Love with TS & Go
+                In Love with DevOps
               </div>
               <div className="hero-social text-sm text-black">
-                DevOps & Infra Guru
+                Jenkins & Linux
               </div>
               <div className="hero-social text-sm text-black">
-                Cybersecurity Enthusiast
-              </div>
-              <div className="hero-social text-sm text-black">
-                Blockchain Developer
+                Business Intelligence
               </div>
             </div>
           </div>
