@@ -1,20 +1,46 @@
 [
   {
-    "title": "NCSC 2k23 - National Cyber Security Congress",
+    "title": "What is DevOps?",
     "description": [
-      "This Event was organized by Securinets INSAT on 19-21 Mars 2023.",
-      "I have contributed with 2 challenges in the Web Exploitation category in the Main CTF. A Frontend Task and a Deno Jail.",
-      "I have also contributed with 5 challenges in the Hackback Series, Including Deno Reverse Engineering, RCE, LFI, Basic Blockchain Enumeration, OSINT, and Steganography.",
-      "My challenges were written in Typescript."
+      "DevOps is all about improving collaboration and automation to build better software faster.",
+      " And one of the keys to making this happen is by leveraging the right DevOps tools.",
+
+      "Here are just a few examples of some of the most popular DevOps tools:",
+
+      "- Jenkins: An automation server that helps you build, test, and deploy software faster",
+
+      "- Docker: A platform that allows you to build, ship, and run distributed applications easily",
+
+      "- Kubernetes: An open-source container orchestration platform that automates the deployment and scaling of containerized applications",
+
+      "- GitLab: A web-based Git repository manager that provides continuous integration and delivery, issue tracking, and code review",
+
+      "- Ansible: An open-source automation platform that helps you configure and manage computer systems more efficiently.",
+
+      "By using these DevOps tools, development teams can improve collaboration, increase productivity, and deliver better software faster."
     ],
-    "image": "/projects/ncsc.jpg",
-    "tags": ["CTF", "TS", "2023"],
-    "links": [
-      {
-        "label": "Visit the website",
-        "url": "https://ctf.securinets.tn/"
-      }
+    "image": "/blogs/devops.jpg",
+    "tags": ["DevOps", "Automation", "2023"],
+    "links": [],
+    "note": null
+  },
+  {
+    "title": "What is BI?",
+    "description": [
+      "Business Intelligence is a technology-driven process for analyzing data and delivering actionable information.",
+      "BI involves the collection, integration, analysis, and presentation of data to support decision-making.",
+      "Data warehouses, dashboards, and reporting software are some of the tools used for BI.",
+      "BI enables organizations to make data-driven decisions and identify opportunities and risks.",
+      "BI can help companies develop new products and services, improve their marketing strategies, and identify new opportunities for growth.",
+      "BI is a powerful tool that can help organizations of all sizes and types to improve their performance and optimize their operations.",
+      "Using BI, companies can gain valuable insights into their operations, customers, and competitors.",
+      "BI allows organizations to visualize data in a variety of formats, making it easier to understand complex information.",
+      "BI can help organizations stay ahead of their competitors by analyzing market trends and customer behavior.",
+      "Overall, BI is an essential tool for businesses to succeed in today's fast-paced business world."
     ],
+    "image": "/blogs/BI.jpg",
+    "tags": ["Business Intelligence", "decisions"],
+    "links": [],
     "note": null
   }
 ]
