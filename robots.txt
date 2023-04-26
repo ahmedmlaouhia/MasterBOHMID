@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /secret-page.html
+
+Sitemap: https://master-bohmid.vercel.app/sitemap.xml
+Sitemap: https://master-bohmid.vercel.app/sitemap_index.xml
+Sitemap: https://master-bohmid.vercel.app/sitemap.xml.gz

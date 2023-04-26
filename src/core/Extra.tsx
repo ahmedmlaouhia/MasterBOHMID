@@ -18,9 +18,13 @@ export default function Extra() {
         </p>
 
         <div className="px-4 flex items-center justify-center pt-20">
-          <Link to="/extra" className="hero-social text-sm text-black">
-            Friends, Music Taste, etc.
-          </Link>
+          <a
+            href="https://open.spotify.com/playlist/1afEqNJJB3mPLy1jdoVzV6?si=a7b72e8a61194797"
+            target="_blank"
+            className="hero-social text-sm text-black"
+          >
+            Spotify
+          </a>
         </div>
       </div>
     </div>
