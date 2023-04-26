@@ -6,6 +6,18 @@ const FILTERS = [
     label: 'All',
     value: '*',
   },
+  {
+    label: 'DevOps',
+    value: 'DevOps',
+  },
+  {
+    label: 'Business intelligence',
+    value: 'Business intelligence',
+  },
+  {
+    label: 'Cloud computing',
+    value: 'Cloud computing',
+  },
 ]
 
 export function useFilter() {
