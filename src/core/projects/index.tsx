@@ -10,7 +10,7 @@ export default function Projects() {
       className="bg-white py-32 min-h-screen relative z-10 grid place-content-center"
     >
       <Helmet>
-        <title>Home - MasterBOHMID</title>
+        <title>Home - MasterBOHMID Portfolio</title>
         <meta
           name="description"
           content="Sorry, the page you are looking for is not available."
